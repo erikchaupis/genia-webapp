@@ -5,7 +5,7 @@
 ## Run
 `npm run dev`
 
-- **URL**:  http://localhost:3001
+ - **URL**:  http://localhost:5173/
 
 # Backend
 `cd backend`
@@ -14,8 +14,8 @@
 ## Compiler TypeScript and Run
 `npx tsc && node dist/index.js`
 
- - **URL**:  http://localhost:5173/
- - It will call  http://localhost:3001/chat service from backend
+- **URL**:  http://localhost:3001
+ - Frontend will call  http://localhost:3001/chat backend service
 
 
  # Troubleshooting
