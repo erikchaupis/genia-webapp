@@ -1,0 +1,9 @@
+
+
+npm install 
+npx tsc
+
+node dist/index.js 
+
+
+npx tsc && node dist/index.js

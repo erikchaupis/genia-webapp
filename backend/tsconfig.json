@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2022", // Or "esnext" for latest features
+    "module": "commonjs", // Or "esnext" if using ES modules (and "type": "module" in package.json)
+    "outDir": "./dist", // Output JavaScript files to a 'dist' folder
+    "rootDir": "./src", // Your TypeScript source files are in the 'src' directory
+    "strict": true, // Enable all strict type-checking options (highly recommended)
+    "esModuleInterop": true, // Allows default imports from CommonJS modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased file names
+    "allowSyntheticDefaultImports": true // Allow default imports from modules with no default export
+  },
+  "include": [
+    "src/**/*.ts" // This tells tsc to include all .ts files in the 'src' folder and its subfolders
+  ],
+  "exclude": [
+    "node_modules", // Don't compile files in node_modules
+    "dist" // Don't compile output files
+  ]
+}
