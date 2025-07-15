@@ -1,0 +1,60 @@
+laws:
+  - id: "law-001"
+    title: "Fair Labor Standards Act"
+    content: "Establishes minimum wage, overtime pay, recordkeeping, and youth employment standards for full-time and part-time workers in the private sector and in federal, state, and local governments."
+
+  - id: "law-002"
+    title: "Family and Medical Leave Act"
+    content: "Allows eligible employees to take unpaid, job-protected leave for specified family and medical reasons with continuation of group health insurance coverage."
+
+  - id: "law-003"
+    title: "Occupational Safety and Health Act"
+    content: "Ensures safe and healthful working conditions by setting and enforcing standards and by providing training, outreach, education, and assistance."
+
+  - id: "law-004"
+    title: "Equal Pay Act"
+    content: "Requires that men and women in the same workplace be given equal pay for equal work."
+
+  - id: "law-005"
+    title: "Title VII of the Civil Rights Act"
+    content: "Prohibits employment discrimination based on race, color, religion, sex, or national origin."
+
+  - id: "law-006"
+    title: "Age Discrimination in Employment Act"
+    content: "Protects individuals who are 40 years of age or older from employment discrimination based on age."
+
+  - id: "law-007"
+    title: "Americans with Disabilities Act"
+    content: "Prohibits discrimination against individuals with disabilities in all areas of public life, including jobs."
+
+  - id: "law-008"
+    title: "National Labor Relations Act"
+    content: "Protects the rights of employees and employers, encourages collective bargaining, and curbs certain private sector labor and management practices."
+
+  - id: "law-009"
+    title: "Uniformed Services Employment and Reemployment Rights Act"
+    content: "Protects service members' reemployment rights when returning from a period of service in the uniformed services."
+
+  - id: "law-010"
+    title: "Employee Retirement Income Security Act"
+    content: "Sets minimum standards for most voluntarily established pension and health plans in private industry."
+
+  - id: "law-011"
+    title: "Worker Adjustment and Retraining Notification Act"
+    content: "Requires employers to provide 60 days’ advance notice of covered plant closings and mass layoffs."
+
+  - id: "law-012"
+    title: "Genetic Information Nondiscrimination Act"
+    content: "Prohibits discrimination on the basis of genetic information with respect to health insurance and employment."
+
+  - id: "law-013"
+    title: "Pregnancy Discrimination Act"
+    content: "Prohibits discrimination on the basis of pregnancy, childbirth, or related medical conditions."
+
+  - id: "law-014"
+    title: "COBRA (Consolidated Omnibus Budget Reconciliation Act)"
+    content: "Gives workers and their families the right to choose to continue group health benefits provided by their group health plan for limited periods."
+
+  - id: "law-015"
+    title: "Fair Credit Reporting Act (Employment Context)"
+    content: "Regulates the collection and use of consumer credit information for employment purposes."

@@ -12,6 +12,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const Chat = () => {
   const [messages, setMessages] = useState<{ role: string; text: string }[]>([]);
   const [input, setInput] = useState("");
+  const [rag, setRag] = useState(false); // Checkbox state
+
 
   const sendMessage = async () => {
     if (!input.trim()) return;
@@ -20,8 +22,17 @@ const Chat = () => {
     setInput("");
 
     try {
-      const res = await axios.post("http://localhost:3001/chat", { message: input });
+      // Spring boot server
+      let URL = "http://localhost:8080/api/chat";
+      URL = rag ? URL + "/rag" : URL;
+      const res = await axios.post(URL, { message: input });
+      const botMsg = { role: "bot", text: res.data };
+      // Nodejs server
+     /* 
+      const URL = "http://localhost:3001/chat";
+      const res = await axios.post(URL, { message: input });
       const botMsg = { role: "bot", text: res.data.reply };
+      */
       setMessages((prev) => [...prev, botMsg]);
     } catch (error) {
       console.error("Error talking to Gemini", error);
@@ -32,6 +43,23 @@ const Chat = () => {
 
     <div className="container py-4">
       <h1 className="mb-4 text-primary">GenAI Chat</h1>
+      <div className="form-check mb-2">
+        <input
+          type="checkbox"
+          className="form-check-input"
+          id="useAltParamCheckbox"
+          checked={rag}
+          onChange={() => setRag(!rag)}
+        />
+        <label className="form-check-label" htmlFor="useAltParamCheckbox">
+          Use RAG
+        </label>
+        <ul>
+          <li><b>Checked</b>, ask: What can you do?</li>
+          <li><b>Unchecked</b>, ask: What tools are available?</li>
+        </ul>
+      </div>
+
       <div className="border rounded p-3 mb-3 bg-light" style={{ height: "300px", overflowY: "auto" }}>
         {messages.map((msg, i) => (
           <div key={i} className="mb-2 text-start">
