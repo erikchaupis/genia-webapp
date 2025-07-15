@@ -23,7 +23,8 @@ const Chat = () => {
 
     try {
       // Spring boot server
-      let URL = "http://localhost:8080/api/chat";
+      //let URL = "http://localhost:8080/api/chat";
+      let URL = "https://genia-webapp-springboot.onrender.com/api/chat";
       URL = rag ? URL + "/rag" : URL;
       const res = await axios.post(URL, { message: input });
       const botMsg = { role: "bot", text: res.data };
