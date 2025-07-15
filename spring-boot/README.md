@@ -37,7 +37,17 @@ curl -X POST -H "Content-Type: text/plain" -d "Calculate the square of 15." http
 
 ## Docker
 ### Build image
-docker build -t my-springboot-app .
 
+```Bash
+cd spring-boot
+docker build -t my-springboot-app .
+```
 ### Run container
-docker run -v /local-path/vertex-ia-key.json:/app/vertex-ia-key.json -e GOOGLE_APPLICATION_CREDENTIALS=/app/vertex-ia-key.json -p 8080:8080 my-springboot-app
+```Bash
+docker run -e GOOGLE_APPLICATION_CREDENTIALS_JSON="$(cat vertex-ia-key.json)" -p 8080:8080 my-springboot-app
+```
+
+Where:`vertex-ia-key.json` is the vertex-ai-accessor key from GCP
+
+
+
