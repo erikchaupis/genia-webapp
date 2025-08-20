@@ -1,0 +1,44 @@
+### law-001: Fair Labor Standards Act
+Establishes minimum wage, overtime pay, recordkeeping, and youth employment standards for full-time and part-time workers in the private sector and in federal, state, and local governments.
+
+### law-002: Family and Medical Leave Act
+Allows eligible employees to take unpaid, job-protected leave for specified family and medical reasons with continuation of group health insurance coverage.
+
+### law-003: Occupational Safety and Health Act
+Ensures safe and healthful working conditions by setting and enforcing standards and by providing training, outreach, education, and assistance.
+
+### law-004: Equal Pay Act
+Requires that men and women in the same workplace be given equal pay for equal work.
+
+### law-005: Title VII of the Civil Rights Act
+Prohibits employment discrimination based on race, color, religion, sex, or national origin.
+
+### law-006: Age Discrimination in Employment Act
+Protects individuals who are 40 years of age or older from employment discrimination based on age.
+
+### law-007: Americans with Disabilities Act
+Prohibits discrimination against individuals with disabilities in all areas of public life, including jobs.
+
+### law-008: National Labor Relations Act
+Protects the rights of employees and employers, encourages collective bargaining, and curbs certain private sector labor and management practices.
+
+### law-009: Uniformed Services Employment and Reemployment Rights Act
+Protects service members' reemployment rights when returning from a period of service in the uniformed services.
+
+### law-010: Employee Retirement Income Security Act
+Sets minimum standards for most voluntarily established pension and health plans in private industry.
+
+### law-011: Worker Adjustment and Retraining Notification Act
+Requires employers to provide 60 days’ advance notice of covered plant closings and mass layoffs.
+
+### law-012: Genetic Information Nondiscrimination Act
+Prohibits discrimination on the basis of genetic information with respect to health insurance and employment.
+
+### law-013: Pregnancy Discrimination Act
+Prohibits discrimination on the basis of pregnancy, childbirth, or related medical conditions.
+
+### law-014: COBRA (Consolidated Omnibus Budget Reconciliation Act)
+Gives workers and their families the right to choose to continue group health benefits provided by their group health plan for limited periods.
+
+### law-015: Fair Credit Reporting Act (Employment Context)
+Regulates the collection and use of consumer credit information for employment purposes.

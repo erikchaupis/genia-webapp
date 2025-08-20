@@ -1,11 +1,15 @@
 package com.genia.app.controller;
 
-import com.genia.app.vector.LuceneVectorStore;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.vectorstore.SearchRequest;
+import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -15,7 +19,7 @@ import java.util.List;
 public class SearchController {
 
     @Autowired
-    private LuceneVectorStore vectorStore;
+    private VectorStore vectorStore;
 
     @PostMapping
     public List<Document> search(@RequestBody String query) {
